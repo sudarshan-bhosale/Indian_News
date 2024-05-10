@@ -1,0 +1,38 @@
+.heading{
+
+    font-family:Algerian;
+    color:#0f2c60;
+    font-size:400%;
+    margin-bottom: 30px;
+    text-shadow:0px 4px 6px black
+}
+
+.card_animation:hover{
+
+    scale: 1.1;
+    translate:10px ;
+    transition-duration: 400ms;
+    transition-timing-function: ease-in;
+    box-shadow: 0 25px 50px -12px rgba(0,0,0,0.25);
+    cursor: pointer;
+}
+
+@media screen and (max-width:761px){
+    .heading{
+
+        margin-top: 100px;
+        font-size: 300%;
+}
+.cart{
+    display: flex;
+    justify-content: center;
+}
+}
+
+@media screen and (max-width:450px){
+    .heading{
+
+        margin-top: 100px;
+        font-size: 200%;
+}
+}
